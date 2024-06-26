@@ -10,4 +10,6 @@ git status
 '''
 Whenever you start any project, you need setup.py file. 
 '''
-
+'''
+After we run pip install -r requirements.txt sucessfully, then sensor.egg-info folder is created inside sensor folder. It picked out sensor folder because sensor folder contains __init__.py file. And also if -e . (HYPHEN_E_DOT) was not there in requirements.txt at the end of libraries then sensor.egg-info folder would not have been created. becaues of -e . python knows that this particular file is python pakage. it is important to create setup.py file and add -e . in the requirement file and also create __init__.py file in the pakage folder.    if you are working on any project always mention -e . in your requirements.txt file, also create setup.py filea after that you will be able to install your source code as a library and whenever you do with you installation you will find there is a pakage sensor.egg-info will be created which will contain all the details about your source code. 
+'''
