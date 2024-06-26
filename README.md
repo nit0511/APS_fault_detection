@@ -6,3 +6,8 @@ git config --global user.name <User_name>
 git log
 git add .
 git status
+
+'''
+Whenever you start any project, you need setup.py file. 
+'''
+
