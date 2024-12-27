@@ -5,9 +5,9 @@ import json
 # Provide the mongodb localhost url to connect python to mongodb
 client = pymongo.MongoClient("mongodb://localhost:27017")
 
-DATA_FILE_PATH = "D:/Nitesh/Personal/ML/aps_failure_training_set1.csv"
+DATA_FILE_PATH = "D:/PythonProject/APS_fault_detection/aps_failure_training_set1.csv"
 
-DATABASE_NAME = "APA"
+DATABASE_NAME = "APS"
 COLLECTION_NAME = "Sensor"
 
 
