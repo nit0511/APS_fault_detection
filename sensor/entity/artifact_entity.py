@@ -1,3 +1,4 @@
+
 from dataclasses import dataclass
 
 @dataclass
@@ -6,7 +7,13 @@ class DataIngestionArtifact:
     train_file_path:str
     test_file_path:str
 
-class DataValidationArtifact:...
+@dataclass
+class DataValidationArtifact:
+    report_file_path:str
+
+
+
+
 class DataTranformationArtifact:...
 class ModelTrainerArtifact:...
 class ModwelEvaluationArtifacts:...
